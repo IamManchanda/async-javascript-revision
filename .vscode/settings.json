@@ -1,0 +1,30 @@
+{
+  "files.exclude": {
+    "callbacks/testing/**/logs": true,
+    "callbacks/testing/**/*.log": true,
+    "callbacks/testing/**/npm-debug.log*": true,
+    "callbacks/testing/**/yarn-debug.log*": true,
+    "callbacks/testing/**/yarn-error.log*": true,
+    "callbacks/testing/**/pids": true,
+    "callbacks/testing/**/*.pid": true,
+    "callbacks/testing/**/*.seed": true,
+    "callbacks/testing/**/*.pid.lock": true,
+    "callbacks/testing/**/lib-cov": true,
+    "callbacks/testing/**/coverage": true,
+    "callbacks/testing/**/.nyc_output": true,
+    "callbacks/testing/**/.grunt": true,
+    "callbacks/testing/**/bower_components": true,
+    "callbacks/testing/**/.lock-wscript": true,
+    "callbacks/testing/build/Release": true,
+    "callbacks/testing/**/node_modules/": true,
+    "callbacks/testing/**/jspm_packages/": true,
+    "callbacks/testing/**/typings/": true,
+    "callbacks/testing/**/.npm": true,
+    "callbacks/testing/**/.eslintcache": true,
+    "callbacks/testing/**/.node_repl_history": true,
+    "callbacks/testing/**/*.tgz": true,
+    "callbacks/testing/**/.yarn-integrity": true,
+    "callbacks/testing/**/.env": true,
+    "callbacks/testing/**/.next": true
+  }
+}
