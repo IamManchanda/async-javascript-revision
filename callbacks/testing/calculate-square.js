@@ -1,7 +1,7 @@
 const calculateSquare = (num, done) => {
   setTimeout(function calculateSquareWithTimer() {
     if (typeof num !== "number") {
-      done(new Error("Argument of type number is expected."));
+      done(new Error("Argument of type Number is expected."));
       return undefined;
     }
     const result = num ** 2;

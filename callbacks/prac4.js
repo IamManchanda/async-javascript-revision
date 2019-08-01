@@ -1,13 +1,14 @@
 const calculateSquare = (num, done) => {
   setTimeout(function calculateSquareWithTimer() {
     if (typeof num !== "number") {
-      done(new Error("Argument of type number is expected"));
+      done(new Error("Argument of type Number is expected."));
     }
     const result = num ** 2;
     done(null, result);
   }, 1000);
 };
 
+/* CALLBACK HELL */
 /* THIS below is a bad bad code, don't ever write this in production. */
 calculateSquare(1, function callback1(error, result) {
   if (error !== null) {
@@ -29,18 +30,11 @@ calculateSquare(1, function callback1(error, result) {
                 console.error(error);
               } else {
                 console.log(result);
-                calculateSquare(5, function callback5(error, result) {
+                calculateSquare("5", function callback5(error, result) {
                   if (error !== null) {
                     console.error(error);
                   } else {
                     console.log(result);
-                    calculateSquare(6, function callback6(error, result) {
-                      if (error !== null) {
-                        console.error(error);
-                      } else {
-                        console.log(result);
-                      }
-                    });
                   }
                 });
               }

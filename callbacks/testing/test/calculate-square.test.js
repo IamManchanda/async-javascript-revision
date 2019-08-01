@@ -12,7 +12,7 @@ describe("calculateSquare", function describeCalculateSquare() {
   it("should return an error if passed string", function itShouldReturnErrorIfPassedString(done) {
     calculateSquare("string", function callbackShouldReturnErrorIfPassedString(error, result) {
       expect(error).to.not.equal(null);
-      expect(error.message).to.equal("Argument of type number is expected.");
+      expect(error.message).to.equal("Argument of type Number is expected.");
       done();
     });
   });
