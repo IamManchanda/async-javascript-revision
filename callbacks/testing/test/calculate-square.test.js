@@ -1,4 +1,4 @@
-const calculateSquare = require("../calculate-square.js");
+const calculateSquare = require("../src/calculate-square.js");
 const expect = require("chai").expect;
 
 describe("calculateSquare", function describeCalculateSquare() {
