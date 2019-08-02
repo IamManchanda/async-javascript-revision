@@ -6,6 +6,8 @@ chai.use(chaiAsPromised);
 const { expect } = chai;
 
 describe("calculateSquare", function describeCalculateSquare() {
+  this.timeout(4000);
+
   it(
     "should resolve 4 when passed 2", 
     function itShouldResolve4WhenPassed2(done) {

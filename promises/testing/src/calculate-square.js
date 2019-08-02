@@ -6,7 +6,7 @@ const calculateSquare = (num) => {
       }
       const result = num ** 2;
       resolve(result);
-    }, 1000);
+    }, 3000);
   });
 };
 
